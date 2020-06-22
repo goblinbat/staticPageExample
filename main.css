@@ -1,0 +1,123 @@
+body {
+    background-color: #64B7FF;
+    width: 99.4%;
+}
+
+header {
+    align-content: right;
+    padding: 10px;
+    border-bottom-style: outset;
+    height: 8vh;
+    /* width: 100%; */
+    background-color: whitesmoke;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.btn {
+    background-color: #3785fa;
+    color: whitesmoke;
+    padding: 7px;
+    border-radius: 3px;
+    border-style: none;
+    font-size: medium;
+    margin-top: 11px;
+    width: 80px;
+}
+
+header button {
+    float: right;
+    margin-right: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 5px;
+}
+
+input {
+    width: 85%;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid lightgray !important;
+}
+
+li .btn {
+    width: 87.5%;
+    border-radius: 6px;
+}
+
+#box {
+    padding: 15px;
+    background-color: whitesmoke;
+    width: 40%;
+    margin: auto;
+    /* margin-top: 50px; */
+    margin-top: 5%;
+    border-style: outset;
+    border-radius: 5px;
+}
+
+#box h2 {
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+#social-btns {
+    /* margin: auto; */
+    text-align: center;
+}
+
+.social {
+    border-radius: 150px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin: 10px;
+}
+
+#amazon {
+    background-image: url("assets/amazon.jpg");
+    background-size: 50px;
+}
+
+#facebook {
+    background-image: url("assets/facebook.png");
+    background-size: 50px;
+}
+
+#github {
+    background-image: url("assets/github.png");
+    background-size: 50px;
+}
+
+#slack {
+    background-image: url("assets/slack.png");
+    background-size: 50px;
+}
+
+#insta {
+    background-image: url("assets/instagram.png");
+    background-size: 50px;
+}
+
+
+
+
+
+.aboutUs {
+    color: yellow;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#catLink {
+    text-decoration: underline; 
+    color: yellow;  
+}
+#catLink:hover {
+    color: orange;
+}
